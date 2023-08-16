@@ -1,9 +1,5 @@
 # coding=utf-8
-'''
-    author buzhong zhang
-    @since 2019-07-16
-     Any problem, please contact to bzzhang@stu.suda.edu.cn
-'''
+
 
 import pickle as cPickle #import cPickle
 import os
