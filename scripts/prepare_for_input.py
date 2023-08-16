@@ -1,9 +1,5 @@
 #coding=utf-8
-'''
-    author buzhong zhang
-    @since 2019.7.28
-    sequences profiles are converted into the style of CRRNN2 software input.
-'''
+
 
 
 import math
