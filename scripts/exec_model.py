@@ -3,7 +3,6 @@
 '''
     author buzhong zhang
     @since 2019.7.28
-    Any problem, please contact to bzzhang@stu.suda.edu.cn
 '''
 
 
