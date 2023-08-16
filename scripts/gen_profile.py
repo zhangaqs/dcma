@@ -1,9 +1,5 @@
 # coding=utf-8
-'''
-    author buzhong zhang
-    @since 2019-07-16
- 
-'''
+
   
 
 import pickle as cPickle #import cPickle
