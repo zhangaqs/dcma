@@ -2,9 +2,7 @@ Readme.md
 
 This repository provides the companying data sets and scripts for the paper:
 
-Buzhong Zhang, Meili Zheng, Yuzhou Zhang, Lijun Quan. DCMA: a Faster Protein Backbone Dihedral Angles Prediction by Dilated Convolutional Attention-Based Neural Network.  
-
-which presents DCMA for predicting protein backbone angles .
+Buzhong Zhang, Meili Zheng, Yuzhou Zhang, Lijun Quan. DCMA: a Faster Protein Backbone Dihedral Angles Prediction by Dilated Convolutional Attention-Based Neural Network which presents DCMA for predicting protein backbone angles .
 
 The running platform:
 
