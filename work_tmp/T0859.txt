@@ -1,0 +1,519 @@
+PSIBLAST 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /pub/soft/uniref90.fasta
+           133,971,487 sequences; 44,873,571,297 total letters
+
+Results from round 1
+
+
+Query= T0859 AP205, Acinotebacter Phage AP205, 133 residues
+
+Length=133
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+UniRef90_Q9AZ42 Coat protein n=3 Tax=Acinetobacter phage AP205 Ta...  263     3e-89
+UniRef90_UPI001652B71D coat protein n=1 Tax=Leviviridae sp. TaxID...  42.0    0.039
+UniRef90_UPI001618D81F molybdopterin-dependent oxidoreductase n=1...  42.7    0.061
+UniRef90_A0A4R7FBP5 LacI family transcriptional regulator n=1 Tax...  40.8    0.24 
+UniRef90_A0A3Q7Q766 histone deacetylase 10 isoform X5 n=3 Tax=Can...  38.9    1.3  
+UniRef90_A0A5B8DIB9 Uncharacterized protein n=2 Tax=Candidatus Me...  37.4    2.2  
+UniRef90_A0A2T0S0A1 LPS-assembly protein LptD n=1 Tax=Pseudoruege...  37.4    4.4  
+UniRef90_V4HZN1 ABC-type sugar transport system, periplasmic comp...  36.6    7.2  
+UniRef90_A0A127F062 O-methyltransferase involved in polyketide bi...  36.2    9.5  
+
+
+>UniRef90_Q9AZ42 Coat protein n=3 Tax=Acinetobacter phage AP205 TaxID=154784 RepID=Q9AZ42_9VIRU
+Length=131
+
+ Score = 263 bits (673),  Expect = 3e-89, Method: Compositional matrix adjust.
+ Identities = 129/131 (98%), Positives = 129/131 (98%), Gaps = 0/131 (0%)
+
+Query  3    MANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAP  62
+            MANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAP
+Sbjct  1    MANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAP  60
+
+Query  63   KPEGGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLGFLDP  122
+            KPEG ADA VIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLGFLDP
+Sbjct  61   KPEGCADACVIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLGFLDP  120
+
+Query  123  TAAIVSSDTTA  133
+            TAAIVSSDTTA
+Sbjct  121  TAAIVSSDTTA  131
+
+
+>UniRef90_UPI001652B71D coat protein n=1 Tax=Leviviridae sp. TaxID=2027243 RepID=UPI001652B71D
+Length=126
+
+ Score = 42.0 bits (97),  Expect = 0.039, Method: Compositional matrix adjust.
+ Identities = 31/103 (30%), Positives = 46/103 (45%), Gaps = 2/103 (2%)
+
+Query  4    ANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAPK  63
+            A   M+   ++   + W DP    +TF  +L   +   G   + N   + ++  + P   
+Sbjct  1    AQHNMRLQLTSGTSLTWVDPNDFRSTFRINLNVNQKVAGAVSVYNARSEVIT-NRAPLVV  59
+
+Query  64   PEGGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNV  106
+             EG  DA  +   EN SIRT ISGS EN A + A    H  N+
+Sbjct  60   IEGCTDACSV-NRENISIRTTISGSVENKAAVLAALLDHLHNL  101
+
+
+>UniRef90_UPI001618D81F molybdopterin-dependent oxidoreductase n=1 Tax=Kaistia hirudinis 
+TaxID=1293440 RepID=UPI001618D81F
+Length=921
+
+ Score = 42.7 bits (99),  Expect = 0.061, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 40/70 (57%), Gaps = 4/70 (6%)
+
+Query  59   RPAPKPEGGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLG  118
+            RP P PEGG    V      +++R +++GS  +L  L+ ++ET  ++VD +F    AGL 
+Sbjct  226  RPLPVPEGGQY--VTGAQHGEAVRALLAGSDPDLLVLERDFET--QSVDPMFLEPEAGLS  281
+
+Query  119  FLDPTAAIVS  128
+            + DP +  +S
+Sbjct  282  WFDPASGRLS  291
+
+
+>UniRef90_A0A4R7FBP5 LacI family transcriptional regulator n=1 Tax=Comamonas sp. JUb58 
+TaxID=2485114 RepID=A0A4R7FBP5_9BURK
+Length=333
+
+ Score = 40.8 bits (94),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 23/61 (38%), Positives = 32/61 (52%), Gaps = 1/61 (2%)
+
+Query  15   ANKIVWSDPTRLSTT-FSASLLRQRVKVGIAELNNVSGQYVSVYKRPAPKPEGGADAGVI  73
+            AN +V S   R++   F  SL  Q   +GI EL    GQ VSV++   P PE G + G +
+Sbjct  174  ANHLVHSGHRRIAYVGFKDSLADQERFLGIQELMQEHGQEVSVFRTEQPSPEAGGNVGSM  233
+
+Query  74   M  74
+            +
+Sbjct  234  L  234
+
+
+>UniRef90_A0A3Q7Q766 histone deacetylase 10 isoform X5 n=3 Tax=Caniformia TaxID=379584 
+RepID=A0A3Q7Q766_CALUR
+Length=637
+
+ Score = 38.9 bits (89),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 27/78 (35%), Positives = 39/78 (50%), Gaps = 10/78 (13%)
+
+Query  14  TANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAPKPEGGADAGVI  73
+           TA +++W DP  +S      LLR    +G  EL  +SGQY +VY  P+        AG  
+Sbjct  12  TAARLLWEDPEYVS------LLRGTQALGTEELQALSGQYDAVYFHPSTFHCARLAAGAA  65
+
+Query  74  MPNENQSIRTVISGSAEN  91
+           +    Q +  V++GSA N
+Sbjct  66  L----QLVDAVLTGSAHN  79
+
+
+>UniRef90_A0A5B8DIB9 Uncharacterized protein n=2 Tax=Candidatus Methylopumilus rimovensis 
+TaxID=2588535 RepID=A0A5B8DIB9_9PROT
+Length=133
+
+ Score = 37.4 bits (85),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 18/60 (30%), Positives = 26/60 (43%), Gaps = 0/60 (0%)
+
+Query  58   KRPAPKPEGGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGL  117
+            K P      G +A +    ENQS     +G A+     K +W+ HK   +  F  GN+G 
+Sbjct  68   KYPGHMAANGLNAAIYFALENQSTHDFGTGIAQFTKNAKGQWQFHKFYYEPQFKGGNSGF  127
+
+
+>UniRef90_A0A2T0S0A1 LPS-assembly protein LptD n=1 Tax=Pseudoruegeria haliotis TaxID=1280846 
+RepID=A0A2T0S0A1_9RHOB
+Length=730
+
+ Score = 37.4 bits (85),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 21/62 (34%), Positives = 32/62 (52%), Gaps = 7/62 (11%)
+
+Query  11   ITSTANKIVWSDPTRLSTTFSASLLR-------QRVKVGIAELNNVSGQYVSVYKRPAPK  63
+            IT   N +V +D   LST  +  L+R       Q++++   E+N VSG+Y  +YK  A  
+Sbjct  102  ITQGENALVLADSAELSTDLTEGLIRSARVVLDQQLQLAATEINRVSGRYTQLYKTTASS  161
+
+Query  64   PE  65
+             E
+Sbjct  162  CE  163
+
+
+>UniRef90_V4HZN1 ABC-type sugar transport system, periplasmic component n=2 Tax=Pseudoalteromonas 
+luteoviolacea TaxID=43657 RepID=V4HZN1_9GAMM
+Length=312
+
+ Score = 36.6 bits (83),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 35/113 (31%), Positives = 51/113 (45%), Gaps = 13/113 (12%)
+
+Query  29   TFSASLLRQRVKVGIAEL--NNVS-----GQYVSVYKRPAPKPEGGADAGVIMPNENQSI  81
+            TF + LL  +    +A +  NN       GQ    YK+ +P+P          PN N+ I
+Sbjct  115  TFDSDLLSDQHAYRLAYVGTNNFDFGVALGQAAKKYKKQSPQPVCIQSGHYTTPNLNERI  174
+
+Query  82   RTV---ISGSAENLATLKAEWETHKRNVDTLFASGNAGLGFLDPTAAIVSSDT  131
+            R V   +SG+A+   T K+ W  H+R    L+  G      L    AI+S+DT
+Sbjct  175  RGVRYALSGTADKKLTGKSGWIEHERC--PLYTMGKRDEA-LSQLLAILSTDT  224
+
+
+>UniRef90_A0A127F062 O-methyltransferase involved in polyketide biosynthesis n=2 Tax=Rhodoplanes 
+sp. Z2-YC6860 TaxID=674703 RepID=A0A127F062_9RHIZ
+Length=397
+
+ Score = 36.2 bits (82),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 26/76 (34%), Positives = 35/76 (46%), Gaps = 5/76 (7%)
+
+Query  63   KPEGGADAGVIMPNENQSIRTVISGS-----AENLATLKAEWETHKRNVDTLFASGNAGL  117
+            KPE   +  +  P+   SIR +IS S     A     L  E+   +RN+D + A G AG 
+Sbjct  7    KPELVINGKLSHPDVENSIRELISLSGPIEAANGFVRLGKEYYKQQRNIDGVIAIGEAGA  66
+
+Query  118  GFLDPTAAIVSSDTTA  133
+            GF   +AA      TA
+Sbjct  67   GFCIKSAAAAKDVETA  82
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.125    0.352    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1111052794985
+Results from round 2
+
+
+Query= T0859 AP205, Acinotebacter Phage AP205, 133 residues
+
+Length=133
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+UniRef90_Q9AZ42 Coat protein n=3 Tax=Acinetobacter phage AP205 Ta...  255     6e-86
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI001652B71D coat protein n=1 Tax=Leviviridae sp. TaxID...  50.1    4e-05
+UniRef90_UPI001618D81F molybdopterin-dependent oxidoreductase n=1...  44.3    0.017
+UniRef90_A0A2T0S0A1 LPS-assembly protein LptD n=1 Tax=Pseudoruege...  43.9    0.028
+UniRef90_A0A3Q7Q766 histone deacetylase 10 isoform X5 n=3 Tax=Can...  42.0    0.13 
+UniRef90_A0A5C7I4Y2 CCHC-type domain-containing protein n=1 Tax=A...  40.5    0.42 
+UniRef90_UPI00083534E0 LPS-assembly protein LptD n=1 Tax=Pseudoru...  40.1    0.46 
+UniRef90_A0A4R7FBP5 LacI family transcriptional regulator n=1 Tax...  39.7    0.67 
+UniRef90_A0A4D9D054 UBA_e1_C domain-containing protein n=1 Tax=Na...  38.1    2.5  
+UniRef90_A0A4R4P3M5 Penicillin-insensitive transglycosylase n=1 T...  37.8    3.0  
+
+
+>UniRef90_Q9AZ42 Coat protein n=3 Tax=Acinetobacter phage AP205 TaxID=154784 RepID=Q9AZ42_9VIRU
+Length=131
+
+ Score = 255 bits (652),  Expect = 6e-86, Method: Composition-based stats.
+ Identities = 129/131 (98%), Positives = 129/131 (98%), Gaps = 0/131 (0%)
+
+Query  3    MANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAP  62
+            MANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAP
+Sbjct  1    MANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAP  60
+
+Query  63   KPEGGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLGFLDP  122
+            KPEG ADA VIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLGFLDP
+Sbjct  61   KPEGCADACVIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLGFLDP  120
+
+Query  123  TAAIVSSDTTA  133
+            TAAIVSSDTTA
+Sbjct  121  TAAIVSSDTTA  131
+
+
+>UniRef90_UPI001652B71D coat protein n=1 Tax=Leviviridae sp. TaxID=2027243 RepID=UPI001652B71D
+Length=126
+
+ Score = 50.1 bits (118),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 31/103 (30%), Positives = 46/103 (45%), Gaps = 2/103 (2%)
+
+Query  4    ANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAPK  63
+            A   M+   ++   + W DP    +TF  +L   +   G   + N   + ++  + P   
+Sbjct  1    AQHNMRLQLTSGTSLTWVDPNDFRSTFRINLNVNQKVAGAVSVYNARSEVIT-NRAPLVV  59
+
+Query  64   PEGGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNV  106
+             EG  DA  +   EN SIRT ISGS EN A + A    H  N+
+Sbjct  60   IEGCTDACSV-NRENISIRTTISGSVENKAAVLAALLDHLHNL  101
+
+
+>UniRef90_UPI001618D81F molybdopterin-dependent oxidoreductase n=1 Tax=Kaistia hirudinis 
+TaxID=1293440 RepID=UPI001618D81F
+Length=921
+
+ Score = 44.3 bits (103),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 40/70 (57%), Gaps = 4/70 (6%)
+
+Query  59   RPAPKPEGGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLG  118
+            RP P PEGG    V      +++R +++GS  +L  L+ ++ET  ++VD +F    AGL 
+Sbjct  226  RPLPVPEGGQ--YVTGAQHGEAVRALLAGSDPDLLVLERDFET--QSVDPMFLEPEAGLS  281
+
+Query  119  FLDPTAAIVS  128
+            + DP +  +S
+Sbjct  282  WFDPASGRLS  291
+
+
+>UniRef90_A0A2T0S0A1 LPS-assembly protein LptD n=1 Tax=Pseudoruegeria haliotis TaxID=1280846 
+RepID=A0A2T0S0A1_9RHOB
+Length=730
+
+ Score = 43.9 bits (102),  Expect = 0.028, Method: Composition-based stats.
+ Identities = 22/65 (34%), Positives = 33/65 (51%), Gaps = 7/65 (11%)
+
+Query  11   ITSTANKIVWSDPTRLSTTFSASLLR-------QRVKVGIAELNNVSGQYVSVYKRPAPK  63
+            IT   N +V +D   LST  +  L+R       Q++++   E+N VSG+Y  +YK  A  
+Sbjct  102  ITQGENALVLADSAELSTDLTEGLIRSARVVLDQQLQLAATEINRVSGRYTQLYKTTASS  161
+
+Query  64   PEGGA  68
+             E  A
+Sbjct  162  CEVCA  166
+
+
+>UniRef90_A0A3Q7Q766 histone deacetylase 10 isoform X5 n=3 Tax=Caniformia TaxID=379584 
+RepID=A0A3Q7Q766_CALUR
+Length=637
+
+ Score = 42.0 bits (97),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 27/78 (35%), Positives = 39/78 (50%), Gaps = 10/78 (13%)
+
+Query  14  TANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAPKPEGGADAGVI  73
+           TA +++W DP  +S      LLR    +G  EL  +SGQY +VY  P+        AG  
+Sbjct  12  TAARLLWEDPEYVS------LLRGTQALGTEELQALSGQYDAVYFHPSTFHCARLAAGAA  65
+
+Query  74  MPNENQSIRTVISGSAEN  91
+           +    Q +  V++GSA N
+Sbjct  66  L----QLVDAVLTGSAHN  79
+
+
+>UniRef90_A0A5C7I4Y2 CCHC-type domain-containing protein n=1 Tax=Acer yangbiense TaxID=1000413 
+RepID=A0A5C7I4Y2_9ROSI
+Length=496
+
+ Score = 40.5 bits (93),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 34/57 (60%), Gaps = 2/57 (4%)
+
+Query  50   SGQYVSVYKRPAPKPEGGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNV  106
+            S + +++   P PKP G   + +I P+E  +  T+I+ + E +A L+ +W+T + +V
+Sbjct  310  SSKTLAIVNGPRPKPIG--KSCLIGPSEGNTSHTIITSNVEKMAYLEEDWKTTEASV  364
+
+
+>UniRef90_UPI00083534E0 LPS-assembly protein LptD n=1 Tax=Pseudoruegeria marinistellae 
+TaxID=1739787 RepID=UPI00083534E0
+Length=716
+
+ Score = 40.1 bits (92),  Expect = 0.46, Method: Composition-based stats.
+ Identities = 21/65 (32%), Positives = 32/65 (49%), Gaps = 7/65 (11%)
+
+Query  11   ITSTANKIVWSDPTRLSTTFSASLLR-------QRVKVGIAELNNVSGQYVSVYKRPAPK  63
+            +T   N +V +D   LST     LLR       Q++++  AE++ V G+Y  +YK  A  
+Sbjct  87   LTQGVNTVVLADSAELSTDLRDGLLRSARVVMDQQLQLAAAEVDRVGGRYTQLYKTVASS  146
+
+Query  64   PEGGA  68
+             E  A
+Sbjct  147  CEVCA  151
+
+
+>UniRef90_A0A4R7FBP5 LacI family transcriptional regulator n=1 Tax=Comamonas sp. JUb58 
+TaxID=2485114 RepID=A0A4R7FBP5_9BURK
+Length=333
+
+ Score = 39.7 bits (91),  Expect = 0.67, Method: Composition-based stats.
+ Identities = 23/61 (38%), Positives = 32/61 (52%), Gaps = 1/61 (2%)
+
+Query  15   ANKIVWSDPTRLS-TTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAPKPEGGADAGVI  73
+            AN +V S   R++   F  SL  Q   +GI EL    GQ VSV++   P PE G + G +
+Sbjct  174  ANHLVHSGHRRIAYVGFKDSLADQERFLGIQELMQEHGQEVSVFRTEQPSPEAGGNVGSM  233
+
+Query  74   M  74
+            +
+Sbjct  234  L  234
+
+
+>UniRef90_A0A4D9D054 UBA_e1_C domain-containing protein n=1 Tax=Nannochloropsis salina 
+CCMP1776 TaxID=1027361 RepID=A0A4D9D054_9STRA
+Length=527
+
+ Score = 38.1 bits (87),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 21/70 (30%), Positives = 33/70 (47%), Gaps = 4/70 (6%)
+
+Query  3    MANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAP  62
+            + N P+  +TST     WS P +  T  S         + +A +++V+    S+Y  PAP
+Sbjct  345  LHNFPIDQVTSTGTPF-WSGPKKPPTPLS---FHPDDPLHLAFVSSVAALRASMYALPAP  400
+
+Query  63   KPEGGADAGV  72
+            +PE  A   V
+Sbjct  401  RPEACAPLAV  410
+
+
+>UniRef90_A0A4R4P3M5 Penicillin-insensitive transglycosylase n=1 Tax=Kribbella albertanoniae 
+TaxID=1266829 RepID=A0A4R4P3M5_9ACTN
+Length=711
+
+ Score = 37.8 bits (86),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 30/119 (25%), Positives = 51/119 (43%), Gaps = 7/119 (6%)
+
+Query  8    MQPITSTANKIVWSDPTRLSTT--FSASLLRQRVKVGIAELNNVSGQYVSVYKRPAPKPE  65
+            ++ IT  + K+VWSD   L  T  F  +L RQ  K+    + + +G+      RP     
+Sbjct  477  IKSITDKSGKVVWSDEKNLKQTQAFDKNLARQVNKILETVVEDGTGEDAKKLDRPVAGKT  536
+
+Query  66   GGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDT--LFASGNAGLGFLDP  122
+            G A    +   E+++      G  +   TL + W  +   + T  ++ +G  G   LDP
+Sbjct  537  GTAGGVAV---EHRAEDKKCDGCKQGTDTLTSWWTGYTPELSTSVIYRAGKTGEADLDP  592
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.127    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0390    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1111052794985
+Results from round 3
+
+
+Query= T0859 AP205, Acinotebacter Phage AP205, 133 residues
+
+Length=133
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+UniRef90_Q9AZ42 Coat protein n=3 Tax=Acinetobacter phage AP205 Ta...  214     1e-69
+UniRef90_UPI001652B71D coat protein n=1 Tax=Leviviridae sp. TaxID...  139     3e-40
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A142D886 Uncharacterized protein n=1 Tax=Leviviridae s...  52.9    3e-06
+UniRef90_UPI001618D81F molybdopterin-dependent oxidoreductase n=1...  40.1    0.56 
+UniRef90_UPI001679DF65 hypothetical protein n=1 Tax=Bacterioplane...  36.7    6.5  
+
+
+>UniRef90_Q9AZ42 Coat protein n=3 Tax=Acinetobacter phage AP205 TaxID=154784 RepID=Q9AZ42_9VIRU
+Length=131
+
+ Score = 214 bits (544),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 129/131 (98%), Positives = 129/131 (98%), Gaps = 0/131 (0%)
+
+Query  3    MANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAP  62
+            MANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAP
+Sbjct  1    MANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAP  60
+
+Query  63   KPEGGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLGFLDP  122
+            KPEG ADA VIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLGFLDP
+Sbjct  61   KPEGCADACVIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLGFLDP  120
+
+Query  123  TAAIVSSDTTA  133
+            TAAIVSSDTTA
+Sbjct  121  TAAIVSSDTTA  131
+
+
+>UniRef90_UPI001652B71D coat protein n=1 Tax=Leviviridae sp. TaxID=2027243 RepID=UPI001652B71D
+Length=126
+
+ Score = 139 bits (351),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 31/103 (30%), Positives = 46/103 (45%), Gaps = 2/103 (2%)
+
+Query  4    ANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAPK  63
+            A   M+   ++   + W DP    +TF  +L   +   G   + N   + ++  + P   
+Sbjct  1    AQHNMRLQLTSGTSLTWVDPNDFRSTFRINLNVNQKVAGAVSVYNARSEVIT-NRAPLVV  59
+
+Query  64   PEGGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNV  106
+             EG  DA  +   EN SIRT ISGS EN A + A    H  N+
+Sbjct  60   IEGCTDACSV-NRENISIRTTISGSVENKAAVLAALLDHLHNL  101
+
+
+>UniRef90_A0A142D886 Uncharacterized protein n=1 Tax=Leviviridae sp. TaxID=2027243 
+RepID=A0A142D886_9VIRU
+Length=130
+
+ Score = 52.9 bits (125),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 34/124 (27%), Positives = 50/124 (40%), Gaps = 8/124 (6%)
+
+Query  3    MANKPMQPITSTANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAP  62
+            M+ + ++    T   I ++DP  +  T           VG A + N  G+ +     P  
+Sbjct  1    MSKRTLRLTAYTPGSIQYADPNDIRNTLRIKGSLTPKAVGSATVQNHRGEIIMNETVP-V  59
+
+Query  63   KPEGGADAGVI--MPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGL--G  118
+            K    +   V+  + NE  S R  +SGS  N A LKA     K   D    + +AGL  G
+Sbjct  60   KITDCSTPPVVTCVGNEIVSARITLSGSVGNSADLKALL---KNAYDNAILAIDAGLLNG  116
+
+Query  119  FLDP  122
+            F  P
+Sbjct  117  FQPP  120
+
+
+>UniRef90_UPI001618D81F molybdopterin-dependent oxidoreductase n=1 Tax=Kaistia hirudinis 
+TaxID=1293440 RepID=UPI001618D81F
+Length=921
+
+ Score = 40.1 bits (92),  Expect = 0.56, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 40/70 (57%), Gaps = 4/70 (6%)
+
+Query  59   RPAPKPEGGADAGVIMPNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASGNAGLG  118
+            RP P PEGG    V      +++R +++GS  +L  L+ ++ET  ++VD +F    AGL 
+Sbjct  226  RPLPVPEGGQ--YVTGAQHGEAVRALLAGSDPDLLVLERDFET--QSVDPMFLEPEAGLS  281
+
+Query  119  FLDPTAAIVS  128
+            + DP +  +S
+Sbjct  282  WFDPASGRLS  291
+
+
+>UniRef90_UPI001679DF65 hypothetical protein n=1 Tax=Bacterioplanes sanyensis TaxID=1249553 
+RepID=UPI001679DF65
+Length=277
+
+ Score = 36.7 bits (83),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 22/111 (20%), Positives = 39/111 (35%), Gaps = 10/111 (9%)
+
+Query  13   STANKIVWSDPTRLSTTFSASLLRQRVKVGIAELNNVSGQYVSVYKRPAPKPEGGADAGV  72
+            +T    V   P  +S +F  SL   ++      + N S ++ S+       PEG      
+Sbjct  28   ATYTSTVAKAPLDISASFRPSLCSNQIGYLAFSVKNPSSEFYSLNNAELHLPEGHEQQYH  87
+
+Query  73   IM----------PNENQSIRTVISGSAENLATLKAEWETHKRNVDTLFASG  113
+            ++             N S+R   +     LA +       + + DT+ A G
+Sbjct  88   VLAGRELIAWADAQNNLSLRNQYNTDLARLAAVSVARLMAESDNDTVSAVG  138
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.125    0.341    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0383    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1111052794985
+
+
+  Database: /pub/soft/uniref90.fasta
+    Posted date:  Jun 5, 2021  10:55 AM
+  Number of letters in database: 44,873,571,297
+  Number of sequences in database:  133,971,487
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
